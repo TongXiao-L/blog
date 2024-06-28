@@ -1,0 +1,111 @@
+/* 导航栏 */
+[data-theme="dark"] #page-header.nav-fixed > #nav,
+[data-theme="dark"] #page-header.not-top-img > #nav {
+    background: #11111b00;
+}
+
+/* 搜索栏 */
+.search-dialog .search-nav {
+    color: var(--font-color);
+}
+
+/* 搜索框 */
+#local-search .search-dialog .local-search-box input {
+    border: 1px solid #cba6f7;
+}
+
+[data-theme="dark"] {
+    /* 背景颜色 */
+    --global-bg: #11111b;
+    /* 字体颜色 */
+    --font-color: #cdd6f4;
+    /* 分割线 */
+    --hr-border: #585b70;
+    --hr-before-color: #cba6f7;
+    /* 搜索栏 */
+    --search-bg: #181825;
+    --search-input-color: #cdd6f4;
+    --search-a-color: #cdd6f4;
+    /* 卡片颜色 */
+    --card-bg: #181825;
+    /* 按钮 */
+    --btn-hover-color: #dec7fa;
+    --btn-color: #11111b;
+    --btn-bg: #cba6f7;
+
+    --text-bg-hover: #252534;
+    --toc-link-color: #6c7086;
+    --light-grey: #cdd6f4;
+    --dark-grey: #cdd6f4;
+    --white: #cdd6f4;
+}
+
+/* 页数 */
+#pagination .page-number.current {
+    background: var(--btn-bg);
+    color: var(--btn-color);
+}
+
+/* 友链 */
+#article-container .flink .flink-list > .flink-list-item {
+    background-color: #1e1e2e;
+}
+
+#article-container .flink .flink-list > .flink-list-item:before {
+    background: #11111b;
+}
+
+/* 版权声明 */
+#post .post-copyright .post-copyright-meta {
+    color: #cba6f7;
+}
+
+#post .post-copyright:before {
+    color: #cba6f7;
+}
+
+/* 标签 */
+
+#post .tag_share .post-meta__tags {
+    border: 1px solid var(--btn-bg);
+    color: var(--btn-bg);
+}
+#post .tag_share .post-meta__tags:hover {
+    background: var(--btn-bg);
+    color: var(--btn-color);
+}
+
+/* 页脚 */
+#footer {
+    background-color: #11111b;
+}
+
+/* ?? */
+a {
+    color: var(--font-color);
+}
+
+a:hover {
+    color: #dec7fa;
+}
+
+/* Other */
+.category-lists .category-list .category-list-count,
+.article-sort-item-time,
+#aside-content .aside-list > .aside-list-item .content > time,
+#aside-content .aside-list > .aside-list-item .content > .name,
+#recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap,
+#post > #post-info #post-meta,
+#post > #post-info #post-meta a {
+    color: #6c7086;
+}
+
+/* 卡片社交图标 */
+#aside-content .card-info .card-info-social-icons i:hover {
+    color: #cba6f7 !important;
+}
+
+/* 页面 */
+#page h1.page-title {
+    text-align: center;
+}
