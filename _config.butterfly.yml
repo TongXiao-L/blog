@@ -608,7 +608,7 @@ theme_color:
   main: "#cba6f7"
 #   paginator: "#00c4b6"
   button_hover: "#f38ba8"
-#   text_selection: "#00c4b6"
+  text_selection: "#9399b240"
 #   link_color: "#89b4fa"
 #   meta_color: "#cba6f7"
 #   hr_color: "#A4D8FA"
