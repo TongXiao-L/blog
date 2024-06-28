@@ -216,7 +216,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -769,7 +769,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: /css/progressbar.css
+  pace_css_url: /blog/css/progressbar.css
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
@@ -908,9 +908,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <link rel="stylesheet" href="/css/highlights.css">
-    - <link rel="stylesheet" href="/css/fonts.css">
-    - <link rel="stylesheet" href="/css/themes.css">
+    - <link rel="stylesheet" href="/blog/css/highlights.css">
+    - <link rel="stylesheet" href="/blog/css/fonts.css">
+    - <link rel="stylesheet" href="/blog/css/themes.css">
   bottom:
     # - <script src="xxxx"></script>
 

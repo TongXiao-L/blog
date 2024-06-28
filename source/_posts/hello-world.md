@@ -33,7 +33,7 @@ $$
 
 # Image
 
-![我是图片](/img/test.png)
+![我是图片](/blog/img/test.png)
 
 # Link
 
