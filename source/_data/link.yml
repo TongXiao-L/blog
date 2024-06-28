@@ -1,0 +1,7 @@
+- class_name: 我的朋友
+  class_desc:
+  link_list:
+      - name: "Null"
+        link: https://www.baidu.com
+        avatar: https://www.baidu.com/favicon.ico
+        descr: 不存在的朋友...
