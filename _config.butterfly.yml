@@ -10,9 +10,10 @@ nav:
 # Menu 目錄
 menu:
   主页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  文章 || fas fa-book:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -231,7 +232,7 @@ aside:
       link: https://github.com/TongXiao-L
   card_announcement:
     enable: true
-    content: 网站建设中，主题可能有问题，欢迎留言反馈
+    content: 网站建设中，配色可能有问题，欢迎留言反馈
   card_recent_post:
     enable: true
     limit: 3 # if set 0 will show all
@@ -603,12 +604,12 @@ site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-theme_color:
-  enable: true
-  main: "#cba6f7"
+# theme_color:
+#   enable: true
+#   main: "#cba6f7"
 #   paginator: "#00c4b6"
-  button_hover: "#f38ba8"
-  text_selection: "#9399b240"
+#   button_hover: "#f38ba8"
+#   text_selection: "#9399b240"
 #   link_color: "#89b4fa"
 #   meta_color: "#cba6f7"
 #   hr_color: "#A4D8FA"
@@ -769,7 +770,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: /blog/css/progressbar.css
+  pace_css_url: /css/progressbar.css
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
@@ -908,9 +909,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/blog/css/themes.css">
     - <link rel="stylesheet" href="/blog/css/highlights.css">
     - <link rel="stylesheet" href="/blog/css/fonts.css">
-    - <link rel="stylesheet" href="/blog/css/themes.css">
   bottom:
     # - <script src="xxxx"></script>
 
