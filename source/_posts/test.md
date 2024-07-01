@@ -9,6 +9,7 @@ description:
 top_img:
 ---
 
+</details>
 
 ```cpp
 #include <iostream>
