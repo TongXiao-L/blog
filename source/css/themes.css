@@ -522,9 +522,36 @@ details:hover>summary {
     color: var(--mauve);
 }
 
+/* 标题 */
+#article-container h1:before,
+#article-container h2:before,
+#article-container h3:before,
+#article-container h4:before,
+#article-container h5:before,
+#article-container h6:before {
+    color: var(--mauve);
+}
+
+#article-container h1:hover:before,
+#article-container h2:hover:before,
+#article-container h3:hover:before,
+#article-container h4:hover:before,
+#article-container h5:hover:before,
+#article-container h6:hover:before {
+    color: var(--red);
+}
+
 /* 列表 */
 li:hover::marker {
     color: var(--mauve);
+}
+
+#article-container li::marker {
+    color: var(--mauve);
+}
+
+#article-container li:hover::marker {
+    color: var(--red);
 }
 
 /* 引用 */
@@ -534,4 +561,13 @@ blockquote {
 
 blockquote:hover {
     border-left-color: var(--mauve-hover);
+}
+
+/* 弹窗 */
+.snackbar-container {
+    background: var(--mantle) !important;
+}
+
+.snackbar-container>p {
+    color: var(--mauve) !important;
 }

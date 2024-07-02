@@ -1,7 +1,23 @@
-- class_name: 我的朋友
+- class_name: "网站"
   class_desc:
   link_list:
-      - name: "Null"
-        link: https://www.baidu.com
-        avatar: https://www.baidu.com/favicon.ico
-        descr: 不存在的朋友...
+    - name: "Hexo"
+      link: https://hexo.io
+      avatar: https://hexo.io/icon/favicon-196x196.png
+      descr: "A fast, simple & powerful blog framework"
+    - name: "Butterfly"
+      link: https://github.com/jerryc127/hexo-theme-butterfly
+      avatar: https://github.com/fluidicon.png
+      descr: "🦋 A Hexo Theme: Butterfly"
+    - name: "Catppuccin"
+      link: https://catppuccin.com/
+      avatar: https://catppuccin.com/favicon.png
+      descr: "Soothing pastel theme for the high-spirited!"
+
+- class_name: "朋友"
+  class_desc: "没有呢😐"
+  link_list:
+    - name: "Hexo"
+      link: https://hexo.io
+      avatar: https://hexo.io/icon/favicon-196x196.png
+      descr: "A fast, simple & powerful blog framework"
